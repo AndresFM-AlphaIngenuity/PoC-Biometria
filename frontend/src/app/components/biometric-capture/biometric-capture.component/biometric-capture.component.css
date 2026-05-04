@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: #1a1a1a;
+  background-color: #f9f9f9;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.biometric-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  margin: 10px 0;
+}
+
+.footer-action {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1; /* Útil para que los botones en el modal ocupen espacio igual */
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background: #1a1a1a;
+}
