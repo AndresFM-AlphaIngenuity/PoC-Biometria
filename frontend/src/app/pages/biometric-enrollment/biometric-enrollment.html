@@ -13,7 +13,7 @@
     (capturar)="capturarHuella()">
   </app-fingerprint-card>
 
-  <div class="footer-action" *ngIf="fotoBase64 && huellaTemplate">
+  <div class="footer-action" *ngIf="huellaTemplate">
     <app-button 
       variant="primary" 
       [disabled]="enviando" 

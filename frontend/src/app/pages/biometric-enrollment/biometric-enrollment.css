@@ -8,9 +8,9 @@
 }
 
 .biometric-container {
-  width: 100%;
-  max-width: 900px;
   margin: 0 auto;
+  max-width: 800px;
+  padding: 24px;
 }
 
 button:disabled {
@@ -25,9 +25,11 @@ button:disabled {
 }
 
 .footer-action {
-  margin-top: 30px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 20px;
 }
 
 .btn-primary {

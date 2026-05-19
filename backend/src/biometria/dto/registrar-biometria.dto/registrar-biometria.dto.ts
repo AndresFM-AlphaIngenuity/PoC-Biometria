@@ -7,7 +7,7 @@ export class RegistrarBiometriaDto {
 
   @IsOptional()
   @IsNotEmpty()
-  fotoBase64: string; // Contiene "data:image/jpeg;base64,..."
+  fotoBase64?: string; 
 
   @IsString()
   @IsNotEmpty()
